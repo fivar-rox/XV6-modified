@@ -19,12 +19,12 @@ Several modfication to XV-6 are done, each task represents a particular aspect o
 
 
 ![image](https://user-images.githubusercontent.com/72460532/193622255-12ef60fb-070e-469f-9d2e-52c8d83cb09c.png)
-![image](https://user-images.githubusercontent.com/72460532/193622503-46fa6a49-523a-4b41-8d2f-b29a2488a26d.png) ![image](https://user-images.githubusercontent.com/72460532/193622779-321e2231-b962-41bd-ba0b-9b7f969cbd32.png)
+![image](https://user-images.githubusercontent.com/72460532/193622503-46fa6a49-523a-4b41-8d2f-b29a2488a26d.png) <!---![image](https://user-images.githubusercontent.com/72460532/193622779-321e2231-b962-41bd-ba0b-9b7f969cbd32.png)-->
 
 * Task-3 : This is about memory management. How memory allocation is done, what are system calls involved, etc. Here we also implement Lazy memory allocation stategy by modifying memory allocater and pagefault_handler. And we will also Implement a swap-in/out mechanism at a kernal level which frees RAM by exploiting free disk space, it also takes requests from processes to bring back the pages/page-directories required by the processes.
 
 ![image](https://user-images.githubusercontent.com/72460532/193622960-50f073dc-d401-4fe9-abe7-6fc63023a1ee.png) ![image](https://user-images.githubusercontent.com/72460532/193622991-50b46078-054d-49c4-8ebb-4f2ce8f4e03f.png)
-![image](https://user-images.githubusercontent.com/72460532/193623177-45f62303-d4c3-4355-ba20-73b433853372.png) ![image](https://user-images.githubusercontent.com/72460532/193623416-f153e06b-fe34-4de1-b922-b48c6be54501.png)
+![image](https://user-images.githubusercontent.com/72460532/193623177-45f62303-d4c3-4355-ba20-73b433853372.png) <!---![image](https://user-images.githubusercontent.com/72460532/193623416-f153e06b-fe34-4de1-b922-b48c6be54501.png)-->
 
 * Task-4 : This is a study on Linux process management and devising how to include some of the features into XV6. The features weren't implemented in XV6 code, the code flow required and the design are explained(System calls and logic). [Youtube presentation](https://youtu.be/SGtBPo8y9dA)
 ![image](https://user-images.githubusercontent.com/72460532/193623711-78a50aef-b48a-4c7c-a45b-6ba9e9d178ca.png)
